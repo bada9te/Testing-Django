@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enumerate</title>
+</head>
+<body>
+    <h1>Person list</h1>
+    <ul>
+        {% for person in people %}
+            <li>{{ person.name }}, {{ person.age }} years old.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
